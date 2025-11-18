@@ -8,6 +8,8 @@ from typing import List, Tuple
 import warnings
 warnings.filterwarnings('ignore')
 
+model="ibm-granite/granite-4.0-h-1b"
+
 # Page configuration
 st.set_page_config(
     page_title="StudyMate - AI Academic Assistant",
@@ -487,4 +489,5 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
+
     main()
